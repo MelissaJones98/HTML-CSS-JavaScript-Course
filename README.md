@@ -22,6 +22,10 @@ A repository created to store all of the projects/tasks created as part of the H
 ### Module 3 - Styling with CSS
 
 - 3.1 CSS Basics: Selectors, Properties, and Values
+- 3.2 Box Model: Margins, Padding, Borders
+- 3.3 Typography: Fonts, Colours, and Line Heights
+- 3.4 Positioning: Static, Relative, Absolute, Fixed
+- 3.5 Introduction to Flexbox for Layouts
 
 ## Technologies
 
