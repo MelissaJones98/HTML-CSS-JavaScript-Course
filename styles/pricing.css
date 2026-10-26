@@ -56,3 +56,29 @@ body {
 .card button:hover {
   background-color: #0056b3;
 }
+
+/* flexbox */
+.pricing-cards {
+  display: flex;
+  gap: 2rem;
+  /* justify-content: center; */
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse;  */
+  flex-direction: row;
+  /* flex-direction: row-reverse;  */
+  height: 100vh; /* 100 view height (vh) */
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#important {
+  background-color: red;
+  /* flex: 1; */
+  flex: 2;
+}
+
+#secondary {
+  /* flex: 1; */
+  /* flex: 2; */
+  flex: 3;
+}
