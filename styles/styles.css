@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 400px;
+  margin: 5rem;
+  padding: 50px;
+}
+
+.box {
+  background-color: orange;
+  border: 5px dashed lime;
+  border-bottom: 10px dotted purple;
+}
