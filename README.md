@@ -26,6 +26,22 @@ A repository created to store all of the projects/tasks created as part of the H
 - 3.3 Typography: Fonts, Colours, and Line Heights
 - 3.4 Positioning: Static, Relative, Absolute, Fixed
 - 3.5 Introduction to Flexbox for Layouts
+- 3.6 CSS Grid for Advanced Layouts
+- 3.7 Media Queries and Mobile-First Design
+- 3.8 CSS Variables and Custom Properties
+- 3.9 Pseudo-elements and Pseudo-classes
+- 3.10 CSS Animations and Transitions
+- 3.11 Writing Maintainable CSS (BEM, File Organisation)
+- 3.12 Performance Optimisation: Lazy Loading and Best Practices
+
+### Module 4 - Bootstrap, Fast and Efficient CSS
+
+- 4.1 Introduction to Bootstrap and and Grid System
+- 4.2 Bootstrap Components: Buttons, Cards, Forms and Modals
+- 4.3 Customising Bootstrap with CSS
+- 4.4 Using Bootstrap Utilities for Rapid Prototyping
+- 4.5 Best Practices for Responsive Design with Bootstrap
+- 4.6 Bootstrap vs. Custom CSS: When to Use Which?
 
 ## Technologies
 
