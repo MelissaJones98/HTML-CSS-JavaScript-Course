@@ -1,0 +1,8 @@
+.navbar {
+  height: 20rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.btn-primary {
+  background-color: red;
+}

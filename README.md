@@ -47,6 +47,7 @@ A repository created to store all of the projects/tasks created as part of the H
 
 - HTML
 - CSS
+- Bootstrap
 - JavaScript
 - Git
 - GitHub
