@@ -1,0 +1,9 @@
+button {
+  background-color: blue;
+  transition: all 1s ease 0s; /* all properties, duration 1 second, speed curve, delay 0 seconds (no delay) */
+}
+
+button:hover {
+  background-color: green;
+  transform: scale(1.1);
+}
