@@ -1,0 +1,22 @@
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.box--green {
+  background-color: green;
+}
+
+.box--red {
+  background-color: red;
+}
+
+.box--blue {
+  background-color: blue;
+}
+
+@media (min-width: 1000px) {
+  .box {
+    background-color: lime;
+  }
+}

@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Queries</title>
+    <link rel="stylesheet" href="/styles/mediaQueries.css" />
+  </head>
+  <body>
+    <div class="box box--red"></div>
+    <!--BEM naming-->
+    <div class="box box--blue"></div>
+    <div class="box box--green"></div>
+  </body>
+</html>
+
+<!--Note to self re BEM naming-->
+<!--box is the base class and box--red is a "modifier". 
+In BEM, a modifier class only changes the base class and doesn't work on its own, 
+so an element always gets both, as in class="box box--red". 
+In CSS, .box--red doesn't inherit anything from .box. The double dash is just part of the name.-->
