@@ -1,0 +1,9 @@
+:root {
+  --primary-colour: red;
+}
+
+.box {
+  background-color: var(--primary-colour);
+  width: 100px;
+  height: 100px;
+}
