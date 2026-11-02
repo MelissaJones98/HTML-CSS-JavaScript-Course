@@ -1,37 +1,29 @@
-function isEven(num) {
-  return num % 2 === 0;
-}
-// checks if the number divides equally by 2 - if so that number is returned
+const grades = [5, 7, 8, 10, 6];
 
-if (isEven(2)) {
-  console.log("2 is an even number");
-}
-
-function greet(name) {
-  console.log("Hello " + name);
-}
-
-greet("Melissa");
-
-function birthday() {
-  let age = 0;
-  console.log("Happy Birthday!");
-  age += 1;
-  console.log(age);
-  return age;
-}
-
-birthday();
-
-birthday();
-
-Math.max(2, 3, 4); // finds the maximum number of the params it was given
-
-console.log(Math); // will display in the console all the functions you can use from Math
-
-function max(a, b) {
-  if (a >= b) {
-    return a;
+function getAverage(arr) {
+  let sum = 0;
+  for (const grade of arr) {
+    if (typeof grade === "number") sum += grade;
   }
-  return b;
+  return (sum /= arr.length);
 }
+
+console.log(getAverage(grades));
+
+const person = {
+  name: "Alice",
+  age: 29,
+  grades: [10, 9, 9, 10, 10],
+  isStudent: true,
+  greeting: function () {
+    console.log("Hello" + this.name + "!");
+  },
+  birthday: function () {
+    this.age += 1;
+    console.log("happy " + this.age + "birthday" + this.name);
+  },
+};
+
+console.log(person.name);
+person.greeting();
+person.birthday();
