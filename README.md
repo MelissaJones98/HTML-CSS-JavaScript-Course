@@ -56,6 +56,16 @@ A repository created to store all of the projects/tasks created as part of the H
 - 5.9 Writing Clean JavaScript Code (Best Practices)
 - 5.10 ES6+ Features (Destructuring, Spread & Rest Operators)
 
+### Module 6 - Interactive Web Pages with JavaScript and DOM
+
+- 6.1 Understanding the DOM and How Browsers Render Pages
+- 6.2 Selecting and Modifying Elements (querySelector, getElementById)
+- 6.3 Event Handling (click, keydown, mouseover, input)
+- 6.4 Creating and Removing Elements Dynamically
+- 6.5 Form Handling and Validation
+- 6.6 Local Storage and Session Storage
+- 6.7 Real-World DOM Project: Interactive Form with Validation
+
 ## Technologies
 
 - HTML
