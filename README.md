@@ -43,6 +43,19 @@ A repository created to store all of the projects/tasks created as part of the H
 - 4.5 Best Practices for Responsive Design with Bootstrap
 - 4.6 Bootstrap vs. Custom CSS: When to Use Which?
 
+### Module 5 - JavaScript Fundamentals
+
+- 5.1 Introduction to JavaScript: Variables and Data Types
+- 5.2 Operators, Expressions, and Type Coercion
+- 5.3 Conditionals: if, else, switch
+- 5.4 Loops: for, while, forEach, for...of
+- 5.5 Functions: Regular, Arrow Functions, and Parameters
+- 5.6 Working with Arrays & Objects (Methods, Iteration)
+- 5.7 Scope and Closures: Understanding this
+- 5.8 JavaScript Debugging and Console Methods
+- 5.9 Writing Clean JavaScript Code (Best Practices)
+- 5.10 ES6+ Features (Destructuring, Spread & Rest Operators)
+
 ## Technologies
 
 - HTML
