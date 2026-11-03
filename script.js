@@ -3,11 +3,10 @@ const form = document.getElementById("signupForm");
 form.addEventListener("submit", function (event) {
   event.preventDefault();
 
-  const name = document.getElementById("name").value;
-  const email = document.getElementById("email").value;
+  let formData = new FormData(form);
 
-  console.log("Name: ", name);
-  console.log("Email: ", email);
+  console.log("Name: ", formData.get("name"));
+  console.log("Email: ", formData.get("email"));
 
   form.reset();
 });
