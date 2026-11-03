@@ -1,14 +1,13 @@
-async function fetchData() {
-  try {
-    let response = await fetch("https://api.sampleapis.com/coffee/hot");
-    if (!response.ok) {
-      throw new Error("There was an error. Status code: " + response.status);
-    }
-    let data = await response.json(); // turns the response into a JS object we can use
-    console.log(data);
-  } catch (error) {
-    console.error(error);
-  }
-}
+const form = document.getElementById("signupForm");
 
-fetchData();
+form.addEventListener("submit", function (event) {
+  event.preventDefault();
+
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+
+  console.log("Name: ", name);
+  console.log("Email: ", email);
+
+  form.reset();
+});
