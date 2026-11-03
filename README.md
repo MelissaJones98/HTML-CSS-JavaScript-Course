@@ -76,6 +76,27 @@ A repository created to store all of the projects/tasks created as part of the H
 - 7.5 Error Handling and Debugging API Calls
 - 7.6 Real-Wolrd API Project: Fetching and Displaying Data
 
+### Module 8 - AI-Assisted Coding
+
+- 8.1 Introduction to AI-Powered Coding (GitHub Copilot, ChatGPT)
+- 8.2 Using AI to Generate HTML and CSS Code
+- 8.3 Using AI to Optimise JavaScript
+- 8.4 Best Practices for AI-Assisted Development
+
+### Module 9 - Web Hosting and Deployment
+
+- 9.1 What is Web Hosting? (Netlify)
+- 9.2 Deploying a Website Using Netlify
+- 9.3 Security Considerations for Deployed Websites
+
+### Module 10 - Final Project
+
+- 10.1 Structuring the Portfolio with HTML & Bootstrap
+- 10.2 Styling the Portfolio with CSS & Animations
+- 10.3 Adding JavaScript for Interactivity
+- 10.4 Implementing Form Handling & Validation
+- 10.5 Publishing & Sharing Your Portfolio
+
 ## Technologies
 
 - HTML
