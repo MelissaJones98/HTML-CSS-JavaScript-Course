@@ -70,6 +70,7 @@ A repository created to store all of the projects/tasks created as part of the H
 
 - 7.1 Introduction to APIs and AJAX
 - 7.2 Fetch API: Making HTTP Requests
+  - used Coffee from sampleapis.com
 - 7.3 Handling JSON Data in JavaScript
 - 7.4 Form Submissions with JavaScript
 - 7.5 Error Handling and Debugging API Calls

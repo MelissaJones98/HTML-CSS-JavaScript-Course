@@ -1,37 +1,14 @@
-function calculateGrades(students) {
-  const results = [];
-
-  for (let i = 0; i < students.length; i++) {
-    const student = students[i];
-    const average = (student.math + student.english + student.science) / 3;
-
-    let grade;
-    if (average >= 90) {
-      grade = "A";
-    } else if (average >= 80) {
-      grade = "B";
-    } else if (average >= 70) {
-      grade = "C";
-    } else {
-      grade = "F";
+async function fetchData() {
+  try {
+    let response = await fetch("https://api.sampleapis.com/coffee/hot");
+    if (!response.ok) {
+      throw new Error("There was an error. Status code: " + response.status);
     }
-
-    results.push({
-      name: student.name,
-      average: average,
-      grade: grade,
-    });
-    debugger;
-
-    return results;
+    let data = await response.json(); // turns the response into a JS object we can use
+    console.log(data);
+  } catch (error) {
+    console.error(error);
   }
 }
 
-const students = [
-  { name: "Ana", math: 95, english: 88, science: 92 },
-  { name: "Ben", math: 72, english: 68, science: 75 },
-  { name: "Carlos", math: 83, english: 79, science: 91 },
-];
-
-const finalResults = calculateGrades(students);
-console.log(finalResults);
+fetchData();
